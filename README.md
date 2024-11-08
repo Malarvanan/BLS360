@@ -6,19 +6,6 @@
 
 ---
 
-## 📑 Table of Contents
-- [Introduction](#introduction)
-- [Project Scope](#project-scope)
-- [Setup and Installation](#setup-and-installation)
-- [Usage Guidelines](#usage-guidelines)
-- [Folder Structure](#folder-structure)
-- [Code Structure & Naming Conventions](#code-structure--naming-conventions)
-- [Contributing](#contributing)
-- [Tasks and Documentation](#tasks-and-documentation)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
-
----
 
 ## 👋 Introduction
 
@@ -32,19 +19,16 @@ Welcome to **BLS360**! This repository serves as a collaborative space for SailP
 
 ## ⚙️ Setup and Installation
 
-1. **Clone the Repository**:
+1. **To Clone the Repository**:
    ```bash
-   git clone https://github.com/username/BLS360.git
+   git clone https://github.com/Malarvanan/BLS360.git
    ```
 2. **Navigate to the Project Directory**:
    ```bash
    cd BLS360
    ```
 
-3. **Install Dependencies** (if applicable, e.g., using Maven):
-   ```bash
-   mvn install
-   ```
+
 
 ## 📏 Usage Guidelines
 
@@ -81,8 +65,8 @@ Welcome to **BLS360**! This repository serves as a collaborative space for SailP
 │   │   └── code-files
 │
 └── /docs
-    ├── best-practices.md  # SailPoint IIQ coding standards and best practices
-    ├── task-template.md    # Template for documenting tasks and solutions
+    ├── documents
+  
 ```
 
 - **tasks/**: Each task should be placed in its own folder with a `README.md` detailing the task description, steps, and solutions.
@@ -92,30 +76,15 @@ Welcome to **BLS360**! This repository serves as a collaborative space for SailP
 
 To ensure consistency and maintainability, please follow these guidelines when writing or contributing to SailPoint IdentityIQ code:
 
-### 1. **Naming Conventions**
-   - **Java Classes**: Use PascalCase for class names. For example:
-     - `AccountCorrelationRule`
-     - `ProvisioningTask`
-   - **Methods**: Use camelCase for method names, and ensure methods are action-oriented:
-     - `getIdentityData()`
-     - `processEntitlements()`
-   - **Variables**: Use camelCase for variable names, starting with a lowercase letter:
-     - `accountList`
-     - `userIdentity`
-   - **Constants**: Use uppercase with underscores for constants:
-     - `MAX_ENTITLEMENTS`
-   - **Files and Directories**: Use lowercase with hyphens to separate words:
-     - `account-correlation-rule.java`
-     - `user-report-generation.xml`
 
-### 2. **Code Structure**
-   - **Custom Rules** 🛠️: Place rules in their dedicated directory under `/tasks`. Ensure that rules are modular and follow the principle of single responsibility.
+### 1. **Code Structure**
+   - **Codes** 🛠️: Place codes in their dedicated directory under `/tasks`. Ensure that rules are modular and follow the principle of single responsibility.
    - **Error Handling** 🚨: Use try-catch blocks where necessary, and always log errors to ensure traceability.
    - **Configuration Files** 📑: Store SailPoint configuration files (e.g., XML, JSON) under `/config`. Avoid hardcoding values; use configuration files wherever possible.
    - **Reusable Components** 🔄: If a piece of logic or function is used in multiple places, consider creating a utility class (e.g., `Utils.java`).
 
-### 3. **JavaDocs and Documentation**
-   - All classes, methods, and functions should have proper JavaDocs.
+### 2. **JavaDocs and Documentation**
+   - All classes, methods, and functions should be proper ( refer JavaDocs ).
    - Include a brief description of the function's purpose and any important parameters or return values.
    - Refer to the official SailPoint JavaDocs for additional context and examples:  
      [SailPoint IIQ JavaDocs](https://developer.sailpoint.com/docs/extensibility/rules/java-docs/)
@@ -152,12 +121,10 @@ Each task should include:
 
 This repository is for internal collaboration and knowledge sharing. Redistribution outside the team is prohibited.
 
-## 🙏 Acknowledgments
 
-Special thanks to the SailPoint IdentityIQ team for the collaborative effort in improving the development process. We continue to build on each other’s knowledge to create better solutions.
 
 ---
 
 **Happy collaborating on BLS360! Let’s improve our SailPoint IdentityIQ development processes together!** 🚀
-```
+
 
