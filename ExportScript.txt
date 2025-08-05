@@ -34,4 +34,3 @@ export -clean=id,created,modified exports/CurrentTaskDefinitionExported.xml Task
 export -clean=id,created,modified exports/CurrentTaskScheduleExported.xml TaskSchedule
 export -clean=id,created,modified exports/CurrentTimePeriodExported.xml TimePeriod
 export -clean=id,created,modified exports/CurrentUIConfigExported.xml UIConfig
-export -clean=id,created,modified exports/CurrentWorkflowExported.xml Workflow
